@@ -1,0 +1,12 @@
+{
+  "name": "yourapp",
+  "description": "Huginn generator templates",
+  "author": "your name <yourname@mail.com>",
+  "dependencies": {
+    "huginn": "0.1.x",
+    "coffee-script": "~1.6.3"
+  },
+  "devDependencies": {
+  },
+  "node": "0.10.x",
+}

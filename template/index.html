@@ -1,0 +1,8 @@
+---
+layout: default
+---
+{% for post in site.posts %}
+        <h1>{{ post.title }}</h1>
+        <p class="muted">{{ post.date | date_to_long_string }}</p>
+        {{ post.content }}
+{% endfor %}
