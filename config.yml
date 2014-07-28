@@ -1,14 +1,14 @@
 name: "keyboard"
-description: "On, Hekyll! On, Jekyll! On Huginn and Muninn!"
+description: "Phaser.io Animated keyboard"
 
 source: ./template
-destination: ./www
+destination: ../gh-pages
 
 port: 0xd16a
 url: http://keyboard.com
 
 serve:
-  - ./www
+  - ../gh-pages
 
 marked:
   gfm: true
