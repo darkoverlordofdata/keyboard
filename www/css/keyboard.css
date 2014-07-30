@@ -1,0 +1,30 @@
+
+div.key {
+    /*border-color: black;*/
+    /*border-width: 1px;*/
+    /*border-style: solid;*/
+}
+
+.key {
+    background-image: url(../images/keypad.png);
+    height: 37px;
+    width: 29px;
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.key-1 {
+    background-position:0px -7px;
+}
+
+.key-w {
+    background-position:-32px -51px;
+}
+
+.key-z {
+    background-position:-63px -57px;
+}
+
+.key-k {
+    background-position:-90px -84px;
+}
